@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js6</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <div class="content">
+        <div class="choose">
+
+            <div class="logo">
+                <img src="assets/bflogosvg.svg" alt="">
+                <p>CHOOSER</p>
+            </div>
+            <div class="act">
+                <form action="" name = "frm">
+                    <p>Select Platforms: </p>
+                    <div class="selmodule">
+                       <div class = "sel">
+                         <label for="pc">PC</label>
+                         <input type="checkbox" name="pc" id="pc" value = "PC">
+                       </div>
+                       <div class="sel">
+                         <label for="x360">Xbox 360</label>
+                         <input type="checkbox" name="x360" id="x360" value = "x360">
+                       </div>
+                       <div class="sel">
+                         <label for="ps3">PlayStation 3</label>
+                         <input type="checkbox" name="ps3" id="ps3" value = "ps3">
+                       </div>
+                       <div class="sel">
+                        <label for="x1">Xbox One</label>
+                        <input type="checkbox" name="x1" id="x1" value = "x1">
+                      </div>
+                      <div class="sel">
+                        <label for="ps4">PlayStation 4</label>
+                        <input type="checkbox" name="ps4" id="ps4" value = "ps4">
+                      </div>
+                      <div class="sel">
+                        <label for="xs">Xbox Series X/S</label>
+                        <input type="checkbox" name="xs" id="xs" value = "xs">
+                      </div>
+                      <div class="sel">
+                        <label for="ps5">PlayStation 5</label>
+                        <input type="checkbox" name="ps5" id="ps5" value = "ps5">
+                      </div>
+                    </div>
+                    
+                    <p>Which conflicts do you prefer?</p>
+                    <div class="selmodule">
+                        <div class="sel">
+                            <label for="ww1">World War I</label>
+                            <input type="checkbox" name="ww1" id="ww1" value="ww1">
+                        </div>
+                        <div class="sel">
+                            <label for="ww2">World War II</label>
+                            <input type="checkbox" name="ww2" id="ww2" value="ww2">
+                        </div>
+                        <div class="sel">
+                            <label for="modern">Modern Warfare</label>
+                            <input type="checkbox" name="modern" id="modern" value = "modern">
+                        </div>
+                        <div class="sel">
+                            <label for="future">Future Warfare</label>
+                            <input type="checkbox" name="future" id="future" value = "future">
+                        </div>
+                    </div>
+
+                    <p>Select your gameplay style: </p>
+                    <div class="selmodule">
+                        <div class="sel">
+                            <label for="iv">Infantry + Vehicles</label>
+                            <input type="radio" name="iv" id="iv" value = 'i+v'>
+                        </div>
+                        <div class="sel">
+                            <label for="i">Infantry</label>
+                            <input type="radio" name="iv" id="i" value = 'i'>
+                        </div>
+                    </div>
+
+                  <div class="btnhldr">
+                      <div class="btnn" id = "testbtn">
+                          <p>See Results!</p>
+                      </div>
+                  </div>
+
+                </form>
+            </div>
+            
+           <div class="notenough" id = "ne">
+                 <p>Not Enough Values!</p>
+               
+           </div>
+
+        </div>
+
+
+
+
+        <div class="results">
+            <div class="gametile" id = "bf1942">
+                <img src="assets/1942.jpeg" alt="">
+                <p>Battlefield 1942</p>
+            </div>
+            <div class="gametile" id = "bf2">
+                <img src="assets/bf2.jpeg" alt="" >
+                <p>Battlefield 2</p>
+            </div>
+            <div class="gametile" id = "bf2142">
+                <img src="assets/bf2142.jpeg" alt="" >
+                <p>Battlefield 2142</p>
+            </div>
+            <div class="gametile" id = "bc1">
+                <img src="assets/bc1.png" alt="" >
+                <p>Battlefield: Bad Company</p>
+            </div>
+            <div class="gametile" id = "bf1943">
+                <img src="assets/bf1943.jpeg" alt="" >
+                <p>Battlefield 1943</p>
+            </div>
+            <div class="gametile" id = "bc2">
+                <img src="assets/bc2.jpeg" alt="" >
+                <p>Battlefield: Bad Company 2</p>
+            </div>
+            <div class="gametile" id = "bf3">
+                <img src="assets/bf3.png" alt="" >
+                <p>Battlefield 3</p>
+            </div>
+            <div class="gametile" id = "bf4">
+                <img src="assets/runthistown.jpeg" alt="" >
+                <p>Battlefield 4</p>
+            </div>
+            <div class="gametile" id = "bfh">
+                <img src="assets/bdh.jpeg" alt="" >
+                <p>Battlefield Hardline</p>
+            </div>
+            <div class="gametile" id = "bf1">
+                <img src="assets/bf1.jpeg" alt="" >
+                <p>Battlefield 1</p>
+            </div>
+            <div class="gametile" id = "bf5">
+                <img src="assets/bf5.jpeg" alt="" >
+                <p>Battlefield V</p>
+            </div>
+            <div class="gametile" id = "bf6">
+                <img src="assets/bf6.jpg" alt="" >
+                <p>Battlefield 2021</p>
+            </div>
+
+            <div class="noresults" id = "nores">
+                No Results!
+            </div>
+
+        </div>
+    </div>
+   
+
+
+
+    <script src = "script.js"></script>
+</body>
+</html>
